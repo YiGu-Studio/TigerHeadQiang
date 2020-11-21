@@ -1,3 +1,0 @@
-YiGu TigerHeadQiang
-
-这是衣谷作坊第一个正式发布的 Mod

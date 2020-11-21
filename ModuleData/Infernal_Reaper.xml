@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+      <CraftedItem id="sg_shitouqiang"
+               name="shishisihtouqiang"
+			   is_merchandise="true" 
+			   crafting_template="shitouqiang" 
+			   >
+    <Pieces>
+      <Piece id="shitouqiang_blade"
+             Type="Blade"
+             scale_factor="100" />
+      <Piece id="shitouqiang_guard"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="shitouqiang_grip"
+             Type="Handle"
+             scale_factor="100" />
+      <Piece id="shitouqiang_pommel"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+  
+  
+    <CraftedItem id="sg_csssssssssss2" name="cesssssss" is_merchandise="true" crafting_template="OneHandedSword">
+    <Pieces>
+      <Piece id="wood_blade_2" Type="Blade" scale_factor="110" />
+      <Piece id="wood_guard_1" Type="Guard" />
+      <Piece id="wood_grip_1" Type="Handle" scale_factor="110" />
+      <Piece id="wood_pommel_1" Type="Pommel" />
+    </Pieces>
+  </CraftedItem>
+  
+</Items>

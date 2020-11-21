@@ -1,34 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Module>
-    <Name value="YiGu_TigerHeadQiang"/>
-    <Id value="YiGu_TigerHeadQiang"/>
-    <Version value="v0.0.1"/>
-    <SingleplayerModule value="true"/>
-    <MultiplayerModule value="false"/>
-    <DependedModules>
-        <DependedModule Id="Native"/>
-        <DependedModule Id="SandBoxCore"/>
-        <DependedModule Id="Sandbox"/>
-        <DependedModule Id="CustomBattle"/>
-        <DependedModule Id="StoryMode" />
-    </DependedModules>
-    <SubModules>
-        <!-- <SubModule>
-             <Name value="ExampleMod"/>
-             <DLLName value="ExampleMod.dll"/>
-             <SubModuleClassType value="ExampleMod.MySubModule"/>
-             <Tags>
-                 <Tag key="DedicatedServerType" value="none" />
-                 <Tag key="IsNoRenderModeElement" value="false" />
-             </Tags>
-         </SubModule> -->
-    </SubModules>
-    <Xmls>
-        <XmlNode>
-            <XmlName id="Items" path="items" />
-            <IncludedGameTypes>
-                <GameType value="Campaign" />
-                <GameType value="CampaignStoryMode" />
-            </IncludedGameTypes>
-        </XmlNode>
-    </Xmls>
+    <Name value="TigerHeadQiang"/>
+    <Id value="TigerHeadQiang"/>
+	<Version value="v1.0.0"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+	<DependedModules>
+		<DependedModule Id="Native"/>
+		<DependedModule Id="SandBoxCore"/>
+		<DependedModule Id="Sandbox"/>
+		<DependedModule Id="CustomBattle"/>
+		<DependedModule Id="StoryMode" />
+	</DependedModules>
+	<SubModules>
+	</SubModules>
+	<Xmls>
+		<XmlNode>
+			<XmlName id="Items" path="Infernal_Reaper"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="CraftingPieces" path="new_pieces"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="CraftingTemplates" path="new_templates"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>	
+	</Xmls>
 </Module>
