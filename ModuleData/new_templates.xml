@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 
 <CraftingTemplates>
   <CraftingTemplate id="shitouqiang" item_modifier_group="polearm" item_holsters="polearm_back:polearm_back_2:polearm_back_3:polearm_back_4" default_item_holster_position_offset="0,0,-0.60" use_weapon_as_holster_mesh="true">
@@ -10,7 +10,7 @@
     </PieceDatas>
     <WeaponUsageDatas>
       <WeaponUsageData id="TwoHandedPolearm"/>
-	</WeaponUsageDatas>
+    </WeaponUsageDatas>
     <StatsData>
       <StatData stat_type="Weight" max_value="10"/>
       <StatData stat_type="WeaponReach" max_value="350"/>
@@ -21,10 +21,10 @@
       <StatData stat_type="Handling" max_value="400"/>
     </StatsData>
     <UsablePieces>
-            <UsablePiece piece_id="shitouqiang_blade"/>
-            <UsablePiece piece_id="shitouqiang_guard"/>
-            <UsablePiece piece_id="shitouqiang_grip"/>
-			<UsablePiece piece_id="shitouqiang_pommel"/>
+      <UsablePiece piece_id="shitouqiang_blade"/>
+      <UsablePiece piece_id="shitouqiang_guard"/>
+      <UsablePiece piece_id="shitouqiang_grip"/>
+      <UsablePiece piece_id="shitouqiang_pommel"/>
     </UsablePieces>
   </CraftingTemplate>
 </CraftingTemplates>
