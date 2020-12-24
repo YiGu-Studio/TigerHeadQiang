@@ -1,5 +1,5 @@
 # Mod AssetSources Files
-AssetSources/
+AssetSources/*.FBX
 
 # Mod Debug Files
 MBLog.txt
