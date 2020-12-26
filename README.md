@@ -28,6 +28,8 @@ Here is the brief summary for this License:
 
 ![CC_BY_NC_SA_Summary_CN](./doc/CC_BY_NC_SA_Summary.png)
 
+[Here](./doc/copyright.png) is the copyright license for this `TigerHeadQiang`.
+
 ## Contribute
 
 Thanks for your time! Feel free to open an issue or pull request here.

@@ -28,6 +28,8 @@ Copyright © 2020 衣谷作坊 版权所有。
 
 ![CC_BY_NC_SA_Summary_CN](./doc/CC_BY_NC_SA_Summary_CN.png)
 
+[这里](./doc/copyright.png) 是 `虎头枪` 的模型版权证书。
+
 ## 贡献
 
 感谢你的关注！请在本 Repo 中提出 Issue 或者是 Pull Requests。
