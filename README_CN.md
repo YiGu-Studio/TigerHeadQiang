@@ -4,16 +4,19 @@
 
 ## 介绍
 
-这是 [骑马与砍杀2: 霸主](https://www.taleworlds.com/en/Games/Bannerlord) 的一个武器 Mod。这个 Mod 启用后，将在你的背包中添加一个非常强力的 **虎头枪**。
+这是 [骑马与砍杀2: 霸主](https://www.taleworlds.com/en/Games/Bannerlord) 的一个武器 Mod。这个 Mod 启用后，将在你的背包中添加一个非常强力的 **虎头枪**。只要玩家的装备和背包中没有虎头枪，则会自动添加一个。
 
 ![Tiger Head Qiang Preview](./doc/TigerHeadQiang_Preview.png)
 
 ![Tiger Head Qiang Crafting](./doc/TigerHeadQiang_Crafting.png)
 
+![Tiger Head Qiang Crafting - 2](./doc/TigerHeadQiang_Crafting_2.png)
+
 ## 开始使用
 
 1. 下载本 Mod 到你的 `Mount & Blade II Bannerlord/Modules` 目录下。
 2. 开启游戏并且选中 `TigerHeadQiang` Mod。
+3. 如果你开启一个新的存档，那么保存并重新加载后，便可在背包中看到这个武器。
 
 ## 协议
 

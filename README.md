@@ -4,16 +4,19 @@
 
 ## Introduction
 
-This is a weapon Mod for [Mount & Blade II: Bannerlord](https://www.taleworlds.com/en/Games/Bannerlord). This Mod will add a very powerful weapon **Tiger Head Qiang** to your inventory. 
+This is a weapon Mod for [Mount & Blade II: Bannerlord](https://www.taleworlds.com/en/Games/Bannerlord). This Mod will add a very powerful weapon **Tiger Head Qiang** to your inventory. If there is no `TigerHeadQiang` in your inventory or equipment, this weapon will be added to your inventory automatically.
 
 ![Tiger Head Qiang Preview](./doc/TigerHeadQiang_Preview.png)
 
 ![Tiger Head Qiang Crafting](./doc/TigerHeadQiang_Crafting.png)
 
+![Tiger Head Qiang Crafting - 2](./doc/TigerHeadQiang_Crafting_2.png)
+
 ## Getting Started
 
 1. Download this repo into `Mount & Blade II Bannerlord/Modules`.
 2. Launch the game and click the mod `TigerHeadQiang`.
+3. If you start a new campaign with this mod, please save and reload to see this weapon.
 
 ## License
 
