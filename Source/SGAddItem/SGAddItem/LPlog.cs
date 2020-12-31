@@ -54,7 +54,7 @@ namespace SGAddItem
             log = ("=========INFO- " + System.DateTime.Now + " -=====\r\n") + log
                                                                              + ("\r\n========INFO---END======");
             Instance.LogInfo(log);
-            InformationManager.DisplayMessage(new InformationMessage(log, new Color(0, 255, 0)));
+            InformationManager.DisplayMessage(new InformationMessage(log, new Color(.25f, 1, 0)));
         }
 
 

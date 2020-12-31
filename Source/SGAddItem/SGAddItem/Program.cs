@@ -53,7 +53,7 @@ namespace SGAddItem
             }
             catch (Exception e)
             {
-                LPLog.LogInfoMessage("请存档后重新读取即可获取 虎头枪。\n Please Reload to get the TigerHeadQiang.");
+                LPLog.LogInfoMessage("请存档后重新读取即可获取 虎头枪。\n Please Save and Reload later to get the TigerHeadQiang.");
             }
 
 
