@@ -49,12 +49,12 @@ namespace SGAddItem
             Instance.LogInfo(log);
             InformationManager.DisplayMessage(new InformationMessage(log, new Color(1, 0, 0)));
         }
-        public static void LogWarning(string log)
+        public static void LogInfoMessage(string log)
         {
-            log = ("=========WARNING- " + System.DateTime.Now + " -=====\r\n") + log
-                                                                             + ("\r\n========WARNING---END======");
+            log = ("=========INFO- " + System.DateTime.Now + " -=====\r\n") + log
+                                                                             + ("\r\n========INFO---END======");
             Instance.LogInfo(log);
-            InformationManager.DisplayMessage(new InformationMessage(log, new Color(.65f, .35f, 0)));
+            InformationManager.DisplayMessage(new InformationMessage(log, new Color(0, 255, 0)));
         }
 
 
