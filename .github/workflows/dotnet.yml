@@ -18,7 +18,7 @@ jobs:
       with:
         dotnet-version: 3.1.301
     - name: Go to SGAddItem Folder
-      run: ./Source/SGAddItem/
+      run: cd ./Source/SGAddItem/
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
