@@ -24,4 +24,4 @@ jobs:
       working-directory: ./Source/SGAddItem/
 
     - name: Build
-      run: dotnet build SGAddItem.sln --no-restore --configuration Release
+      run: dotnet build ./Source/SGAddItem/SGAddItem.sln --no-restore --configuration Release
