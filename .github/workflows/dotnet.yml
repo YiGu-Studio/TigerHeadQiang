@@ -20,7 +20,7 @@ jobs:
         dotnet-version: 3.1.301
 
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore ./Source/SGAddItem/SGAddItem/SGAddItem.csproj
 
     - name: Build
       run: dotnet build ./Source/SGAddItem/SGAddItem.sln --configuration Release # --no-restore
