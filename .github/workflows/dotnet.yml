@@ -13,15 +13,21 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+
     - name: Setup .NET
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 3.1.301
+
     - name: Go to SGAddItem Folder
       run: cd ./Source/SGAddItem/
+
     - name: Restore dependencies
       run: dotnet restore
+      working-directory: ./Source/SGAddItem/SGAddItem
+
     - name: Build
       run: dotnet build --no-restore
+
     - name: Test
       run: dotnet test --no-build --verbosity normal
