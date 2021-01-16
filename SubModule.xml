@@ -2,7 +2,7 @@
 <Module>
     <Name value="TigerHeadQiang"/>
     <Id value="TigerHeadQiang"/>
-    <Version value="v1.1.1"/>
+    <Version value="v1.1.2"/>
     <SingleplayerModule value="true"/>
     <MultiplayerModule value="false"/>
     <DependedModules>
@@ -12,17 +12,17 @@
         <DependedModule Id="CustomBattle"/>
         <DependedModule Id="StoryMode" />
     </DependedModules>
-	<SubModules>
-		<SubModule>
-			<Name value="TigerHeadQiang"/>
-			<DLLName value="TigerHeadQiang.dll"/>
-			<SubModuleClassType value="SGAddItem.SubModule"/>
-			<Tags>
-				<Tag key="DedicatedServerType" value="none" />
-				<Tag key="IsNoRenderModeElement" value="false" />
-			</Tags>
-		</SubModule>
-	</SubModules>
+    <SubModules>
+        <SubModule>
+            <Name value="TigerHeadQiang"/>
+            <DLLName value="TigerHeadQiang.dll"/>
+            <SubModuleClassType value="SGAddItem.SubModule"/>
+            <Tags>
+                <Tag key="DedicatedServerType" value="none" />
+                <Tag key="IsNoRenderModeElement" value="false" />
+            </Tags>
+        </SubModule>
+    </SubModules>
     <Xmls>
         <XmlNode>
             <XmlName id="Items" path="Infernal_Reaper"/>
