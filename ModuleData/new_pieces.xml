@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CraftingPieces>
   <CraftingPiece id="shitouqiang_grip" name="{=c33de75b}Tiger Head Qiang Grip" tier="1" piece_type="Handle" mesh="S_TY0004_007_Qiangwoba_aeowl" length="110" weight="1" excluded_item_usage_features="long" item_holster_pos_shift="0,0,0.3">
-    <PieceUsages unavailable_usages="TwoHandedPolearm_Couchable:Javelin" />
+    <PieceUsages unavailable_usages="" />
     <BuildData piece_offset="30" previous_piece_offset="0" />
     <Materials>
       <Material id="wood" count="3" />
