@@ -2,15 +2,15 @@
 <Module>
     <Name value="TigerHeadQiang"/>
     <Id value="TigerHeadQiang"/>
-    <Version value="v1.2.0"/>
+    <Version value="v1.2.1"/>
     <SingleplayerModule value="true"/>
     <MultiplayerModule value="false"/>
     <DependedModules>
-        <DependedModule Id="Native" DependentVersion="e1.6.1"/>
-        <DependedModule Id="SandBoxCore" DependentVersion="e1.6.1"/>
-        <DependedModule Id="Sandbox" DependentVersion="e1.6.1"/>
-        <DependedModule Id="CustomBattle" DependentVersion="e1.6.1"/>
-        <DependedModule Id="StoryMode" DependentVersion="e1.6.1"/>
+        <DependedModule Id="Native" DependentVersion="e1.6.5"/>
+        <DependedModule Id="SandBoxCore" DependentVersion="e1.6.5"/>
+        <DependedModule Id="Sandbox" DependentVersion="e1.6.5"/>
+        <DependedModule Id="CustomBattle" DependentVersion="e1.6.5"/>
+        <DependedModule Id="StoryMode" DependentVersion="e1.6.5"/>
     </DependedModules>
     <SubModules>
         <SubModule>
