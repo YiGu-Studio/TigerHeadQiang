@@ -2,16 +2,16 @@
 <Module>
     <Name value="TigerHeadQiang"/>
     <Id value="TigerHeadQiang"/>
-    <Version value="v1.3.0"/>
+    <Version value="e1.3.0"/>
     <SingleplayerModule value="true"/>
     <MultiplayerModule value="false"/>
-    <DependedModules>
-        <DependedModule Id="Native" DependentVersion="e1.7.0"/>
-        <DependedModule Id="SandBoxCore" DependentVersion="e1.7.0"/>
-        <DependedModule Id="Sandbox" DependentVersion="e1.7.0"/>
-        <DependedModule Id="CustomBattle" DependentVersion="e1.7.0"/>
-        <DependedModule Id="StoryMode" DependentVersion="e1.7.0"/>
-    </DependedModules>
+    <DependedModuleMetadatas>
+        <DependedModuleMetadata id="Native" order="LoadBeforeThis" version="e1.7.0.*" />
+        <DependedModuleMetadata id="SandBoxCore" order="LoadBeforeThis" version="e1.7.0.*" />
+        <DependedModuleMetadata id="Sandbox" order="LoadBeforeThis" version="e1.7.0.*" />
+        <DependedModuleMetadata id="StoryMode" order="LoadBeforeThis" version="e1.7.0.*" optional="true" />
+        <DependedModuleMetadata id="CustomBattle" order="LoadBeforeThis" version="e1.7.0.*" optional="true" />
+    </DependedModuleMetadatas>
     <SubModules>
         <SubModule>
             <Name value="TigerHeadQiang"/>
