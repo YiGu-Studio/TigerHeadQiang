@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WeaponDescriptions>
+    <WeaponDescription id="shitouqiang" weapon_class="OneHandedPolearm" item_usage_features="onehanded:block:shield:swing:thrust">
+        <WeaponFlags>
+            <WeaponFlag value="MeleeWeapon"/>
+            <WeaponFlag value="WideGrip"/>
+        </WeaponFlags>
+        <AvailablePieces>
+            <AvailablePiece id="shitouqiang_blade"/>
+            <AvailablePiece id="shitouqiang_guard"/>
+            <AvailablePiece id="shitouqiang_grip"/>
+            <AvailablePiece id="shitouqiang_pommel"/>
+        </AvailablePieces>
+    </WeaponDescription>
+</WeaponDescriptions>

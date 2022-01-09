@@ -11,10 +11,8 @@ namespace SGAddItem
 {
     public class SubModule : MBSubModuleBase
     {
-        
         public override bool DoLoading(Game game)
         {
-
             Init();
 
             try
@@ -53,11 +51,11 @@ namespace SGAddItem
             }
             catch (Exception e)
             {
+                LPLog.Log(e.Message);
                 LPLog.LogInfoMessage("请存档后重新读取即可获取 虎头枪。\n Please Save and Reload later to get the TigerHeadQiang.");
             }
 
-
-            return true;
+            return base.DoLoading(game);
         }
 
         public static string AssemblyDirectory
