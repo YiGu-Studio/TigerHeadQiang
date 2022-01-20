@@ -12,7 +12,7 @@
         <DependedModuleMetadata id="StoryMode" order="LoadBeforeThis" version="e1.7.0.*" optional="true" />
         <DependedModuleMetadata id="CustomBattle" order="LoadBeforeThis" version="e1.7.0.*" optional="true" />
     </DependedModuleMetadatas>
-    <SubModules>
+    <!-- <SubModules>
         <SubModule>
             <Name value="TigerHeadQiang"/>
             <DLLName value="TigerHeadQiang.dll"/>
@@ -22,7 +22,7 @@
                 <Tag key="IsNoRenderModeElement" value="false" />
             </Tags>
         </SubModule>
-    </SubModules>
+    </SubModules> -->
     <Xmls>
         <XmlNode>
             <XmlName id="Items" path="weapon_crafting_items"/>
