@@ -2,7 +2,7 @@
 <Module>
     <Name value="TigerHeadQiang"/>
     <Id value="TigerHeadQiang"/>
-    <Version value="e1.3.1"/>
+    <Version value="e1.3.2"/>
     <SingleplayerModule value="true"/>
     <MultiplayerModule value="false"/>
 
@@ -20,7 +20,7 @@
         <DependedModuleMetadata id="CustomBattle" order="LoadBeforeThis" version="e1.7.0.*" optional="true" />
     </DependedModuleMetadatas>
 
-    <!-- <SubModules>
+    <SubModules>
         <SubModule>
             <Name value="TigerHeadQiang"/>
             <DLLName value="TigerHeadQiang.dll"/>
@@ -30,7 +30,8 @@
                 <Tag key="IsNoRenderModeElement" value="false" />
             </Tags>
         </SubModule>
-    </SubModules> -->
+    </SubModules>
+
     <Xmls>
         <XmlNode>
             <XmlName id="Items" path="weapon_crafting_items"/>

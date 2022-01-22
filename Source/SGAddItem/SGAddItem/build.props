@@ -1,0 +1,8 @@
+<Project>
+    <PropertyGroup>
+        <GameVersion>1.7.0</GameVersion>
+        <ModuleName>TigerHeadQiang</ModuleName>
+        <Version>1.3.2</Version>
+        <HarmonyVersion>2.2.0</HarmonyVersion>
+    </PropertyGroup>
+</Project>
