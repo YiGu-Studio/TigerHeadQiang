@@ -55,7 +55,7 @@ namespace SGAddItem
                 LPLog.LogInfoMessage("请存档后重新读取即可获取 虎头枪。\n Please Save and Reload later to get the TigerHeadQiang.");
             }
 
-            return base.DoLoading(game);
+            return true;
         }
 
         public static string AssemblyDirectory
@@ -84,8 +84,6 @@ namespace SGAddItem
             LPLog.LogPath = filePath;
 
             LPLog.Log("当前mod名：" + NowModName);
-
-            //path += "/" + System.AppDomain.CurrentDomain.BaseDirectory;
 
         }
     }

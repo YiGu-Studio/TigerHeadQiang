@@ -1,0 +1,6 @@
+<Project>
+    <PropertyGroup>
+        <!-- replace it with your own game installation directory -->
+        <GameFolder>E:\Program Files\SteamLibrary\steamapps\common\Mount &amp; Blade II Bannerlord</GameFolder>
+    </PropertyGroup>
+</Project>
