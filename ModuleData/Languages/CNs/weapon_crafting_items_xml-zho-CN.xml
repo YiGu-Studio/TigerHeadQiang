@@ -6,5 +6,9 @@
     </tags>
     <strings>
         <string id="ed6d31af" text="虎头枪"/>
+        <string id="b9701d43" text="虎头枪头"/>
+        <string id="b30f9a97" text="虎头枪 Guard"/>
+        <string id="0c6c7ca0" text="虎头枪把手"/>
+        <string id="09e04b5c" text="虎头枪柄端"/>
     </strings>
 </base>
