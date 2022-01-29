@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
-    <CraftedItem id="tigerheadqiang_ty0004_007" name="{=ed6d31af}Tiger Head Qiang" is_merchandise="true" crafting_template="shitouqiang">
+    <CraftedItem id="tigerheadqiang_ty0004_007" name="{=ed6d31af}Tiger Head Qiang" is_merchandise="true" crafting_template="shitouqiang" value="999" culture="Culture.neutral_culture">
         <Pieces>
             <Piece id="shitouqiang_blade" Type="Blade" scale_factor="100" />
             <Piece id="shitouqiang_guard" Type="Guard" scale_factor="100" />
