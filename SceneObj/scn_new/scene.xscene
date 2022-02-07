@@ -41,13 +41,21 @@
 		</out_of_bounds_effects_properties>
 	</environment_properties>
 	<entities>
-		<game_entity name="envmap_probe" old_prefab_name="" mobility="1" season_mask="255">
+		<game_entity name="ground_plane" old_prefab_name="">
+			<transform position="10.000, 10.000, 0.010" rotation_euler="0.000, 0.000, 0.000" scale="20.000, 20.000, 20.000"/>
+			<physics shape="bo_editor_plane"/>
+			<components>
+				<meta_mesh_component name="editor_plane_low">
+					<mesh name="editor_plane_low" argument="1.000, 0.000, 0.000, 0.000"/>
+				</meta_mesh_component>
+			</components>
+		</game_entity>
+		<game_entity name="envmap_probe" old_prefab_name="" mobility="1">
 			<visibility_masks>
 				<visibility_mask name="no_shadow" value="true"/>
 				<visibility_mask name="visible_only_when_editing" value="true"/>
 			</visibility_masks>
 			<transform position="20.000, 0.000, 5.000" rotation_euler="0.000, 0.000, 0.000"/>
-			<physics mass="1.000"/>
 			<scripts>
 				<script name="ReflectionCapturer">
 					<variables>
@@ -60,21 +68,8 @@
 				</script>
 			</scripts>
 		</game_entity>
-		<game_entity name="ground_plane" old_prefab_name="" season_mask="255">
-			<transform position="10.000, 10.000, 0.010" rotation_euler="0.000, 0.000, 0.000" scale="20.000, 20.000, 20.000"/>
-			<physics shape="bo_editor_plane" mass="1.000"/>
-			<components>
-				<meta_mesh_component name="editor_plane_low">
-					<mesh name="editor_plane_low" argument="1.000, 0.000, 0.000, 0.000"/>
-				</meta_mesh_component>
-			</components>
-		</game_entity>
 	</entities>
 	<terrain enabled="false"/>
-	<prt_batch_data>
-		<scene_bake_data sample_count_index="1" number_of_interreflections="4" subdivision_length="4.000"/>
-		<probe_bake_data visibility_find_quality="1" active_probe_find_quality="1" grid_width="1.500" grid_height="2.500"/>
-	</prt_batch_data>
 	<editor_data editor_camera_position="0.000, 0.000, 10.000" editor_camera_elevation="-0.200" editor_camera_bearing="0.000" editor_camera_forward="0.577, 0.577, -0.577" author="" comment=""/>
 	<camera_data near_plane="0.100" far_plane="100000.000"/>
 	<Paths/>
